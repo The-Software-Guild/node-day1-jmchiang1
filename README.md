@@ -1,11 +1,11 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6544213&assignment_repo_type=AssignmentRepo)
 
-// 1. core modules exercise
-// create a new directory USING NODE called node-core-modules
-// using at least the node core module fs create a .txt file and write the following in it, 'hello world this is my first file!'
-// use a callback to output to the console that the file creation succeeded
-// now read the entire contents of the file. Remember first you will need to create and store the path to the file.
-// rename the working directory USING NODE to node-event-module
+1. core modules exercise
+[x] create a new directory USING NODE called node-core-modules
+[x] using at least the node core module fs create a .txt file and write the following in it, 'hello world this is my first file!'
+[x] use a callback to output to the console that the file creation succeeded
+[x] now read the entire contents of the file. Remember first you will need to create and store the path to the file.
+[x] rename the working directory USING NODE to node-event-module
 
 
 // 2. event module exercise
