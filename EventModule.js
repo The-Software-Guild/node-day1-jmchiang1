@@ -1,3 +1,5 @@
+//documentation: https://nodejs.org/api/events.html#emitterlistenercounteventname
+
 //import events module
 var events = require("events"); 
 
