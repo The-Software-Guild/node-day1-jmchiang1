@@ -2,14 +2,13 @@
 
 const express = require('express');
 const api = require('./API')
+const https = require('https');
 
-// create new express app and save it as "app"
 const app = express();
-
-// server configuration
 const PORT = 3000;
 
-app.use(express.json());
+// app.use(bodyParser.urlendcoded({ extended: false }));
+// app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
     api.make_API_call('http://5c055de56b84ee00137d25a0.mockapi.io/api/v1/employees')
@@ -22,7 +21,7 @@ app.get('/', (req, res) => {
     })
 })
 
-// make the server listen to requests
+
 app.listen(PORT, () => {
   console.log(`Server running at: http://localhost:${PORT}/`);
 });
