@@ -1,3 +1,5 @@
+//documentation: https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/
+
 const url = "http://5c055de56b84ee00137d25a0.mockapi.io/api/v1/employees";
 
 async function getapi(url) {
